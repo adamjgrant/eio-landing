@@ -1,0 +1,26 @@
+.navigation, .al-nav
+  +navbar($background-color: rgba(238, 238, 238, 0.9))
+  transition: background, 0.25s
+
+  nav
+    +wrapper
+
+    @media screen and (min-width: $tablet-landscape)
+      max-width: 1200px
+
+.navigation
+  +navbar-fixed
+  +navbar-collapse
+
+  &:hover
+    background-color: white
+    border-bottom-width: 1px
+    border-bottom-style: solid
+    border-bottom-color: #DDD
+
+  h1 a
+    color: $default-font-color
+
+.al-nav
+  +navbar-color(map-get($black, lightest))
+  margin-bottom: 0

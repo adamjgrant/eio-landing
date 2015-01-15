@@ -1,0 +1,21 @@
+.images
+  +row
+
+  iframe
+    display: block
+    margin: $space auto
+
+  .fourth
+    +column('half')
+
+    img
+      width: 100%
+
+    +gt($tablet)
+      +column(3)
+
+  .third
+    +column('third')
+
+    img
+      width: 100%

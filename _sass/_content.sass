@@ -1,0 +1,55 @@
+ul.post-list
+  +list($style: 'unstyled')
+
+  > li
+    margin-bottom: $space * 2
+
+  .post-meta
+    color: map-get($gray, light)
+
+  h2
+    +heading-sm
+    margin-top: 0px
+    font-weight: 300
+
+.post-content
+
+  @media screen and (min-width: $tablet-landscape)
+    max-width: 700px
+
+  img
+    max-width: 400px
+    display: block
+    margin:
+      left: 0
+      top: $space
+      bottom: $space * 2
+
+  .gravatar
+    width: 50px
+    height: 50px
+    border-radius: 50%
+    display: inline-block
+    vertical-align: middle
+    margin-right: 5px
+
+  .post-meta
+    display: inline-block
+    color: map-get($gray, light)
+
+  .post-header
+    margin-bottom: $space * 2
+
+.post-list
+  @media screen and (min-width: $tablet-landscape)
+    -moz-columns: 2
+    -webkit-columns: 2
+    columns: 2
+
+h1.post-title
+  +heading-rg
+  font-weight: 500
+
+  @media screen and (min-width: $tablet)
+    +heading-xl
+    font-weight: 500
