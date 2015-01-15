@@ -1,3 +1,5 @@
-source "http://rubygems.org"
+source 'http://rubygems.org'
 
-gem "jekyll"
+gem 'thor'
+gem 'stringex'
+gem 'github-pages'

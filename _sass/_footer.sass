@@ -18,5 +18,8 @@ html, body
   margin: 0 auto #{-$footer-height}
   padding-top: $space
 
+  +gt($phablet)
+    padding-top: $space * 2
+
 .footer, .push
   height: $footer-height
