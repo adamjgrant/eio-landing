@@ -1,0 +1,34 @@
+.home
+  background: map-get($colors, blue)
+
+.home-wrapper
+  max-width: $phone
+  padding: $space
+  margin: 0px auto
+
+  img
+    width: 200px
+    margin: 0px auto
+    display: block
+
+  ul
+    +list($style: 'unstyled')
+
+  h1, h2
+    text-align: center
+
+  h1, h2, p, li, a
+    color: white
+
+  a
+    text-decoration: underline
+    
+    &:hover
+      text-decoration: none
+
+  h1
+    +heading-xl
+    font-weight: 100
+
+  h2
+    +heading-sm

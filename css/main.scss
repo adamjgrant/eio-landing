@@ -3,10 +3,13 @@
 ---
 @charset "utf-8";
 
-@import "lib/sass/themes/default/theme.sass";
+@import "eio/theme.sass";
 
 @import "_content";
 @import "_footer";
 @import "_header";
-@import "_images";
 @import "_layout";
+
+@import "_images";
+
+@import "_home";
