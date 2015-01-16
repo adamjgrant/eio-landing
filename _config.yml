@@ -10,8 +10,20 @@ twitter_username: everythingdotio
 # Build settings
 markdown: kramdown
 
+gems:
+  - "autoprefixer-rails"
+  - "jekyll-assets"
+
 sass:
   load_paths:
+    - "_sass"
+    - "_kickstart"
+    - "_kickstart/lib-core/sass"
+
+assets:
+  sources:
+    - "_assets/javascripts"
+    - "_assets/stylesheets"
     - "_sass"
     - "_kickstart"
     - "_kickstart/lib-core/sass"
