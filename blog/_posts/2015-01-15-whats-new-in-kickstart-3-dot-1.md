@@ -11,3 +11,4 @@ Kickstart 3.1 hasn't been released yet, but here are some of the things we're ta
 
 - New media query shortcuts.
 - Improved navigation bar performance.
+- Improved generic list styling
