@@ -10,10 +10,16 @@ layout: default
       <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
 
+    <aside class="toc-phone">
+      <h1>Contents</h1>
+      <div class="toc-append"></div>
+    </aside>
     <article class="post-article">
       {{ content }}
     </article>
     <aside class="toc">
+      <h1>Contents</h1>
+      <div class="toc-append"></div>
     </aside>
   </article>
 
@@ -33,7 +39,11 @@ layout: default
     <script src="/js/smooth-tocer.js"></script>
     <script>
       smoothtocer(
-        document.querySelector('.toc'),
+        document.querySelector('.toc .toc-append'),
+        document.querySelector('.post-article')
+      );
+      smoothtocer(
+        document.querySelector('.toc-phone .toc-append'),
         document.querySelector('.post-article')
       );
     </script>
