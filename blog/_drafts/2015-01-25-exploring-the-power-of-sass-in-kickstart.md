@@ -5,7 +5,7 @@ tags:
  -
 ---
 
-With the release of Kickstart 3 early this year, we dove deep into the power of Sass 3.4. 
+With the [release of Kickstart 3](http://getkickstart.com) early this year, we dove deep into the power of Sass 3.4. 
 With that came a ton of documentation on all the things you can do in K3. While extensive docs
 are generally a good thing, it can be hard to surface some of the awesome things you can do.
 Let's go over a few.
