@@ -120,3 +120,5 @@ See more about Kickstart's navbars in the [Navbar Docs](http://getkickstart.com/
 e.g. Coloring navbar text with $background
 
 # Truly modular CSS components
+
+# TODO: Add a link to this article from Kickstart homepage.
