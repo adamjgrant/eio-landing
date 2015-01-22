@@ -10,7 +10,9 @@ layout: default
       <p class="post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</p>
     </header>
 
-    {{ content }}
+    <article class="post-article">
+      {{ content }}
+    </article>
   </article>
 
     <div id="disqus_thread"></div>
