@@ -103,7 +103,27 @@ Even create a left, center, and right menu.
       </nav>
     </div>
 
-The Navbar is just one example, all of Kickstart's core components are single-mixin.
+What about dropdowns? Don't we need a class for that? Again, HTML already has a design for this.
+It's called nesting.
+
+<img src="http://cdn.everything.io/home/blog/power-of-sass/navbar4.png" />
+
+    <div class="mynav">
+      <nav>
+        <ul>
+          <li>
+            I have a submenu item.
+            <ul>
+              <li>
+                <a href="/">Submenu Item.</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
+The Navbar is just one example of this design. All of Kickstart's core components are single-mixin.
 
 See more about Kickstart's navbars in the [Navbar Docs](http://getkickstart.com/docs/3.x/ui/navigation/)
 

@@ -13,6 +13,8 @@ layout: default
     <article class="post-article">
       {{ content }}
     </article>
+    <aside class="toc">
+    </aside>
   </article>
 
     <div id="disqus_thread"></div>
@@ -28,5 +30,12 @@ layout: default
         })();
     </script>
     <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <script src="/js/smooth-tocer.js"></script>
+    <script>
+      smoothtocer(
+        document.querySelector('.toc'),
+        document.querySelector('.post-article')
+      );
+    </script>
 
 </div>

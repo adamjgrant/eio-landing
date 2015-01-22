@@ -14,8 +14,13 @@ ul.post-list
 
 .post-content
 
-  @media screen and (min-width: $tablet-landscape)
-    max-width: 700px
+  h1, h2, h3, h4, h5, h6
+    &:before
+      display: block
+      content: " "
+      margin-top: -60px
+      height: 60px
+      visibility: hidden
 
   img
     max-width: 400px
@@ -63,3 +68,16 @@ h1.post-title
 
   h3, h4, h5, h6
     +heading-xxs
+
++gt($tablet-landscape)
+  .post-content
+    +row
+
+  .post-header
+    +column(12)
+
+  .toc
+    +column('third')
+
+  .post-article
+    +column('twothirds')
