@@ -5,10 +5,13 @@ tags:
  -
 ---
 
-Greetings, we just started this blog and are beginning to fill it up now. Check back for more updates.
-
-Kickstart 3.1 hasn't been released yet, but here are some of the things we're targeting:
+Kickstart 3.1 has officially been released. Here's what's new:
 
 - New media query shortcuts.
 - Improved navigation bar performance.
 - Improved generic list styling
+- Support for vendor components in coffeescript directory (previously, only Sass was supported.)*
+
+*Only available/relevant for gulp, jekyll, node.js usage
+
+To update, simply update your gem or pull the latest from the Kickstart repo.
