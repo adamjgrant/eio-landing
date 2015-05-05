@@ -5,7 +5,7 @@ tags:
  -
 ---
 
-Kickstart 3.1 has officially been released. Here's what's new:
+Kickstart 3.1 has [officially been released](http://getkickstart.com). Here's what's new:
 
 - New [media query shortcuts](http://getkickstart.com/docs/3.x/grid/#media-query-shortcuts).
 - Improved [navigation bar performance](http://getkickstart.com/docs/3.x/ui/navigation/).
