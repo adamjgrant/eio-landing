@@ -13,6 +13,7 @@ Kickstart 3.1 has [officially been released](http://getkickstart.com). Here's wh
 - Support for vendor components in coffeescript directory (previously, only Sass was supported.)*
 - Debouncer is now multi-threaded. Run batch processes each with their own debouncer.
 - Native [shortcut support for Chopin](http://getkickstart.com/docs/3.x/ui/#chopin-shortcuts).
+- Documentation for Kickstart's [jQuery free selectors, k$.$ and k$.$$](http://getkickstart.com/docs/3.x/functions/element-selector/)
 
 Bugfixes
 
