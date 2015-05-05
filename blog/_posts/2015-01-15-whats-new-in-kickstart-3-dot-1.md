@@ -19,6 +19,7 @@ Bugfixes
 
 - Fixed issue where modal backdrop appeared rounded and cut off in some browsers
 - Better docs navigation. See the section of the page you're currently viewing.
+- Fixed alignment of fluid and fluid-fixed navbars where left edge of text would not line up with wrapper.
 
 *Only available/relevant for gulp, jekyll, node.js usage
 
