@@ -15,6 +15,7 @@ Kickstart 3.1 has officially been released. Here's what's new:
 - Native [shortcut support for Chopin](http://getkickstart.com/docs/3.x/ui/#chopin-shortcuts).
 
 Bugfixes
+
 - Fixed issue where modal backdrop appeared rounded and cut off in some browsers
 - Better docs navigation. See the section of the page you're currently viewing.
 
