@@ -1,0 +1,11 @@
+form.form-horizontal
+  @include form('horizontal')
+  width: 100%
+
+  .form-group
+    @include form_group('horizontal')
+    display: flex
+    width: 100%
+
+    input[type="email"]
+      width: 100%
