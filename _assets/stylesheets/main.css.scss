@@ -2,8 +2,6 @@
 
 @import "eio/theme.sass";
 
-iframe { padding: 0px }
-
 @import "_content";
 @import "_footer";
 @import "_header";
@@ -12,3 +10,5 @@ iframe { padding: 0px }
 @import "_images";
 
 @import "_home";
+
+iframe { padding: 0px 15px; }
